@@ -1,0 +1,24 @@
+{
+  "name": "polymer-playground",
+  "description": "A sample for polymer",
+  "main": "index.js",
+  "authors": [
+    "Christian Katzorke <ckatzorke@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ckatzorke/polymer-playground",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.1.5",
+    "webcomponentsjs": "^0.7.21",
+    "jquery": "^2.2.2"
+  }
+}
