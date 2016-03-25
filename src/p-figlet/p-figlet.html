@@ -1,16 +1,16 @@
-<link rel="import" href="/bower_components/polymer/polymer.html">
+<link rel="import" href="/polymer/polymer.html">
 <!-- ascii art paragraph, based on figlet https://www.npmjs.com/package/figlet -->
 <dom-module id="p-figlet">
 
     <template>
         <span id="ascii"><content id="Content"></content></span>
     </template>
-    <script src="./figlet.js" type="application/javascript"></script>
-    <script src="./jquery-1.12.2.min.js"   ></script>
+    <script src="./lib/figlet.js" type="application/javascript"></script>
+    <script src="./lib/jquery.min.js"></script>
     </script>
     <script>
     Polymer({
-      is: 'ascii-mo',
+      is: 'p-figlet',
       extends: 'p',
       properties:{
         font: String  
