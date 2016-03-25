@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ckatzorke/polymer-playground/issues"
   },
-  "homepage": "https://github.com/ckatzorke/polymer-playground#readme"
+  "homepage": "https://github.com/ckatzorke/polymer-playground#readme",
+  "dependencies": {
+    "figlet": "^1.1.1"
+  }
 }

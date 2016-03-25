@@ -1,0 +1,22 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<dom-module id="note-pad">
+
+  <template>
+    <p class="notepad"><content></content>, Du Opfer</p>
+  </template>
+  <link rel="import" type="css" href="note-pad.css">
+
+  <script>
+    Polymer({
+      is: 'note-pad',
+      properties: {
+        foo: {
+          type: String,
+          value: "Default"
+        }
+      }
+    });
+  </script>
+
+</dom-module>
